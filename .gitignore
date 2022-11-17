@@ -1,0 +1,3 @@
+# Project exclude paths
+/rsocket/basic-rsocket/target/
+/vertx/vertx-web/target/

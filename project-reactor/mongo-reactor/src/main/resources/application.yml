@@ -1,0 +1,14 @@
+server:
+  port: 8024
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://10.8.160.110:27017/leo_test
+#      host: 10.8.160.110
+#      port: 27017
+#      database: leo_test
+#      username:
+#      password:
+#      authentication-database: admin
+
