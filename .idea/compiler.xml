@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mongo-reactor" />
         <module name="vertx-web" />
-        <module name="basic-rsocket" />
-        <module name="boot-rsocket-server" />
         <module name="boot-rsocket-client" />
+        <module name="basic-rsocket" />
+        <module name="mongo" />
+        <module name="boot-rsocket-server" />
+        <module name="r2dbc" />
         <module name="basic" />
         <module name="webflux" />
       </profile>

@@ -13,10 +13,12 @@
     <artifactId>project-reactor</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
+
     <modules>
         <module>basic</module>
-        <module>mongo-reactor</module>
+        <module>mongo</module>
         <module>webflux</module>
+        <module>r2dbc</module>
     </modules>
 
 
