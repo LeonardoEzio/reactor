@@ -7,13 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vertx-web" />
-        <module name="boot-rsocket-client" />
         <module name="basic-rsocket" />
         <module name="mongo" />
-        <module name="boot-rsocket-server" />
         <module name="r2dbc" />
         <module name="basic" />
+        <module name="boot-rsocket-server" />
+        <module name="boot-rsocket-client" />
+        <module name="vertx-web" />
         <module name="webflux" />
       </profile>
     </annotationProcessing>
